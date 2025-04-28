@@ -18,11 +18,8 @@ NetWork Architect is an educational game designed to help players discover the w
 ## How to Run
 Open the `Networkarchitect.html` file in a modern web browser to start playing the game.
 
-## Credits
-Learn the basics of network architectures while having fun. Take on challenges and test your skills.
-
 © 2025 NetWork Architect. All rights reserved.  
-Created, Designed, and Distributed by Quentin BOURDOIS, Timothé LAMOUCHE, and Landry LHOMME.
+Created, Designed, and Distributed by Quentin BOURDOIS and Landry LHOMME.
 
 ---
 
@@ -46,8 +43,5 @@ NetWork Architect est un jeu éducatif conçu pour aider les joueurs à découvr
 ## Comment lancer le jeu
 Ouvrez le fichier `Networkarchitect.html` dans un navigateur web moderne pour commencer à jouer.
 
-## Crédits
-Apprenez les bases des architectures réseau tout en vous amusant. Relevez des défis et testez vos compétences.
-
 © 2025 NetWork Architect. Tous droits réservés.  
-Réaliser, Designer et Distribuer par Quentin BOURDOIS, Timothé LAMOUCHE et Landry LHOMME.
+Réaliser, Designer et Distribuer par Quentin BOURDOIS et Landry LHOMME.
