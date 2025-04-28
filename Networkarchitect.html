@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetWork Architect</title>
+    <link rel="stylesheet" href="networkarchitect.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="asset/image.png" >
+</head>
+<body>
+    <header>
+        <div class="acceuil">
+            <h1 class="network">NetWork Architect</h1>
+            <p class="intro">Bienvenue dans ce jeu qui vous fera découvrir le monde de l'infrastructure réseau à travers de multiples scénarios et niveaux.</p>
+            <button class="play-button" id="playButton">Jouer</button>
+        </div>
+    </header>
+
+    <button class="back-button" id="backButton">Retour à l'accueil</button>
+
+    <div class="game-container" id="gameContainer">
+        <div id="loading" class="loading">Chargement des assets...</div>
+        <!-- Le canvas sera inséré ici par JavaScript -->
+    </div>
+    
+    <div class="controls" id="gameControls">
+        <div class="control-buttons">
+            <button id="menuButton">Menu</button>
+            <button id="simulateButton">Démarrer simulation</button>
+            <button id="infoButton">Info</button>
+        </div>
+    </div>
+    
+    <div class="instructions" id="gameInstructions">
+        <div id="howToPlay">
+            <h2>Comment jouer</h2>
+        <ul>
+            <li><strong>Objectif:</strong> Construire un réseau efficace pour faire passer les requêtes des clients aux serveurs</li>
+            <li><strong>Placez les équipements:</strong> Cliquez sur le bouton "Menu" pour afficher les appareils (Routeur, Switch, Serveur, Client) puis cliquez sur la grille pour le placer</li>
+            <li><strong>Connectez les équipements:</strong> Cliquez sur un appareil puis sur un autre pour les relier par un câble</li>
+            <li><strong>Testez votre réseau:</strong> Cliquez sur le bouton "Simuler" pour générer des requêtes et vérifier si votre réseau peut les gérer</li>            
+        </ul>
+        </div>
+        <div id="equipmentInfo" style="display:none;">
+            <h2>Équipements disponibles</h2>
+            <ul>
+                <li><strong>Routeur:</strong> Achemine les paquets entre différents réseaux</li>
+                <li><strong>Switch:</strong> Connecte les appareils sur un même réseau local</li>
+                <li><strong>Serveur:</strong> Fournit des services et ressources réseau</li>
+                <li><strong>Client:</strong> Émet des requêtes vers les serveurs</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <footer>
+        <h3>À propos du jeu</h3>
+        <p>Apprenez les bases des architectures réseau tout en vous amusant. Relevez des défis et testez vos compétences.</p>
+        <p>&copy; 2025 NetWork Architect. Tous droits réservés. <br> Réaliser, Disigner et Distribuer par Quentin BOURDOIS Timothé LAMOUCHE et Landry LHOMME</p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
